@@ -18,8 +18,8 @@
         <div class="col mt-1">
             <button form="pageform"
                     name="catoptions.currentPage" value="@(Model.CurrentPage -1)"
-                    class="btn btn-block btn-outline-secondary
-                        @(!Model.HasPreviousPage ? "disabled" : "")"
+                    class="btn btn-block btn-outline-secondary"
+                        @(!Model.HasPreviousPage ? "disabled" : "")
                     type="submit">
                 Previous
             </button>
@@ -43,8 +43,8 @@
         <div class="col mt-1">
             <button form="pageform"
                     name="catoptions.currentPage" value="@(Model.CurrentPage +1)"
-                    class="btn btn-block btn-outline-secondary
-                        @(!Model.HasNextPage? "disabled" : "")"
+                    class="btn btn-block btn-outline-secondary"
+                        @(!Model.HasNextPage? "disabled" : "")
                     type="submit">
                 Next
             </button>
