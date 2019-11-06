@@ -18,7 +18,7 @@
                         <input form="pageform" type="hidden"
                                name="options.searchpropertyname" value="Name" />
                         <input form="pageform" name="options.searchterm"
-                               placeholder="Seach..." class="form-control" />
+                               placeholder="Search..." class="form-control" />
                     </div>
                     <div class="col">
                         <button form="pageform" class="btn btn-secondary"
@@ -32,7 +32,7 @@
                     <div class="row">
                         <div class="col">
                             <div class="card m-1 p-1 bg-light">
-                                <div class="bg-faded p-1">
+                                <div class="bg-transparent p-1">
                                     <h4>
                                         @p.Name
                                         <span class="badge badge-pill badge-primary"
@@ -53,7 +53,7 @@
                                         @(p.Description
                                             ?? "(No Description Available")
                                         <button type="submit"
-                                                class="btn btn-success btn-sm pull-right"
+                                                class="btn btn-success btn-sm float-right"
                                                 style="float:right">
                                             Add To Cart
                                         </button>
